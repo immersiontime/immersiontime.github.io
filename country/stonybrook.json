@@ -5,11 +5,17 @@
   "country": {
     "name": "USA",
     "flag_url": "\uD83C\uDDFA\uD83C\uDDF8",
-    "currency": "Dollar Américain -> 1€ = 1.56 $"
+    "currency":{
+      "name": "Dollar Américain",
+      "exchange_rate": 1.56
+    }
   },
   "admission": {
     "mark": {
       "min": 12
+      "min": 12,
+      "max": 20,
+      "average": 16
     },
     "toefl": {
       "min": 80
@@ -19,8 +25,15 @@
     }
   },
   "prices": {
+    "total_price": {
+      "min": 1230,
+      "max": 9756,
+      "average": 5493
+    },
     "plane": {
-      "link_website": "https://www.kayak.fr/"
+      "min": 160,
+      "max": 300,
+      "average": 230
     },
     "food": {
       "min": 300,
@@ -28,10 +41,14 @@
       "average": 400
     },
     "rent": {
-      "link_website": "https://www.student.com/fr-fr/us/new-york-city/u/stony-brook-university"
+      "min": 770,
+      "max": 8850,
+      "average": 4810
     },
     "transport": {
-      "card_per_month": 106
+      "min": 0,
+      "max":106,
+      "average": 53
     }
   },
   "hints": [
